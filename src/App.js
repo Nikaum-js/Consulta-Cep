@@ -1,8 +1,8 @@
-import { Login } from '../src/components/Login'
+import { Form } from '../src/components/Form'
 
 function App() {
   return (
-    <Login />
+    <Form />
   );
 }
 

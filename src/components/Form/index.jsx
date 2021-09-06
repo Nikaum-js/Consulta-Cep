@@ -2,7 +2,7 @@ import DeliveryImage from '../../assets/Delivery.svg';
 
 import './styles.scss';
 
-export function Login() {
+export function Form() {
   //função para fazer o código só funcionar quando a pagina for carregada 
   window.onload=function(){
 
@@ -44,7 +44,7 @@ export function Login() {
   }
 
   return (
-    <div className="container-login">
+    <div className="container-form">
       <figure>
         <img alt="Delivery" src={DeliveryImage} />
       </figure>
