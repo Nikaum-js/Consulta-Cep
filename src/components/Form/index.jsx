@@ -31,9 +31,10 @@ export function Form() {
         cache: 'default'
       }
   
+      
       //estou enviando os dados para a API dos correios
       fetch(`https://viacep.com.br/ws/${searchTrace}/json`, options)
-      
+
       //estou dizendo o que eu quero fazer com a minha promise
       .then(response => { response.json()
           //estou dizendo o que eu quero fazer com a minha outra promise
